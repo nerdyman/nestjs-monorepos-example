@@ -5,7 +5,7 @@
   "root": "apps/nest-one",
   "compilerOptions": {
     "webpack": true,
-    "tsConfigPath": "apps/apps/tsconfig.app.json"
+    "tsConfigPath": "apps/nest-one/tsconfig.app.json"
   },
   "projects": {
     "nest-one": {

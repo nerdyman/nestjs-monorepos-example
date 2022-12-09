@@ -8,27 +8,4 @@ To install the correct package manager and dependencies, run:
 npm run dx
 ```
 
-To start everything in dev mode, run:
-
-```sh
-pnpm run dev
-```
-
-To build everything in dev mode, run:
-
-```sh
-pnpm run build
-```
-
-To run everything built above, run:
-
-```sh
-pnpm run start
-```
-
-You can also use globs to run specific packages, e.g.:
-
-```sh
-# Run all the packages starting with `@this/nest`
-pnpm run dev --filter "@this/nest*"
-```
+See the [apps/apis](apps/apis/README.md) and [apps/next-app](apps/next-app/README.md) READMEs for more information on how to run each app.
